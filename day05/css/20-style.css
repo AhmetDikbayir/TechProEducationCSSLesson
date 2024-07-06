@@ -1,0 +1,87 @@
+form.form-login{
+    margin: 2rem;
+
+}
+
+form.form-login .emailFocus{
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+form.form-login .emailFocus:focus{
+    background-color: red;
+    color: whitesmoke;
+}
+
+
+/* form.form-login .chk:checked{
+   outline:5px red solid;
+
+
+}
+ */
+
+ form.form-login input[type="checkbox"]:checked {
+    outline:5px red dotted;
+
+ }
+
+ form.form-login input[type="text"]:focus {
+   background-color: plum;
+   color: yellow;
+   outline: 3px red dashed;
+
+ }
+
+ a#link:active{
+color: fuchsia;
+ }
+
+ul.list li:first-child{
+
+    color: green;
+    background-color: gold;
+    display: inline-block;
+
+}
+
+ul.list li:last-child,
+ul.list2 li:last-child,
+ul.list3 li:last-child
+{
+
+    color: rgb(0, 17, 128);
+    background-color: rgb(51, 255, 0);
+    display: inline-block;
+
+}
+
+
+
+ul.list2 li:nth-child(4){
+color: crimson;
+background-color: turquoise;
+
+}
+
+
+table.tablo{
+    border-collapse: collapse;
+    text-align: center;
+    border: 4px double blue ;
+}
+
+table.tablo thead tr th{
+    border: 5px solid rgb(170, 20, 140);
+    background-color: chartreuse;
+}
+
+table.tablo tbody tr:nth-child(odd){
+    background-color: rgb(208, 61, 61);
+    cursor: pointer;
+}
+
+table.tablo tbody tr:nth-child(even){
+    background-color: rgb(161, 187, 157);
+}

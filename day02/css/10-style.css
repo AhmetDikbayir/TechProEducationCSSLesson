@@ -1,0 +1,39 @@
+h1.title{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+body,html{
+    background-color: rgb(69, 232, 232);
+    width: 75%;
+    height: 100%;
+}
+
+div.kutu-1{
+    background-color: violet;
+    width:50% ;
+}
+
+div.kutu-2{
+    background-color: chartreuse;
+width:40vw ;
+height: 36vh;
+}
+
+
+
+div.kutu-3{
+    font-size: 2em;
+}
+
+div.kutu-4{
+    font-size: 2em;
+}
+
+div.kutu-5{
+    font-size: 3rem; /* 32px */
+    background-color: blueviolet;
+}
+

@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #ffd0d0;
+  --secondary-color: #3aa6b9;
+  --third-color: chartreuse;
+
+  --hover-color: #f9f9e0;
+  --centerTA: center;
+  --fS: 39px;
+
+  --fF:"Roboto", sans-serif;
+}
+
+
+h1.title{
+    text-align: var(--centerTA);
+    color: var(--secondary-color);
+    background-color: var(--third-color);
+     font-size: var(--fS);
+}
+
+h1.title:hover{
+    background-color: var(--hover-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    font-family: var(--fF);
+   
+}
+
+button{
+    color: var(--secondary-color);
+    background-color: var(--hover-color);
+}
+

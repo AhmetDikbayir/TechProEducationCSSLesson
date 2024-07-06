@@ -1,0 +1,23 @@
+a:link{
+    color: red;
+
+}
+
+a:visited{
+    color: turquoise;
+}
+
+/* a:hover{
+    background-color: chartreuse;
+    color: blueviolet;
+    border-radius: 10px;
+    
+} */
+
+h1.title{
+color: tomato;
+cursor: pointer;
+}
+a:active{
+    color: rgb(25, 7, 164);
+}

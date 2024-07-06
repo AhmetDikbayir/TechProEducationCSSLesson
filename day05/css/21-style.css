@@ -1,0 +1,61 @@
+
+
+h1.title{
+    text-align: center;
+    color: red;
+   
+}
+
+p.pEl::first-letter{
+
+    font-size: 2rem;
+    color: chartreuse;
+
+}
+
+
+p.pEl::first-line{
+
+    font-size: 2rem;
+    color: rgb(0, 140, 255);
+
+}
+
+p.pEl::selection{
+    background-color: palevioletred;
+    color: cornflowerblue;
+   
+}
+
+ol.list li::marker{
+
+    color: teal;
+    font-size: x-large;
+
+
+}
+
+
+h1.title::before{
+    content: "🐦‍🔥";
+    margin-right: 10px;
+    font-size: 2rem;
+}
+
+
+h1.title::after{
+    content: "🐉";
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+span::after{
+
+    content: "🐉";
+}
+
+span::before{
+
+    content: "🐉";
+}
+

@@ -1,0 +1,45 @@
+
+
+nav.menu{
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+}
+
+nav.menu button{
+    display: inline-block;
+    background-color: violet;
+    color: lawngreen;
+    font-weight: 600;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+nav.menu ul{
+    list-style-type: "🎉";
+    margin-top:5px ;
+    padding: 0;
+    list-style-position: inside;
+    display: none;
+
+}
+
+nav.menu ul li{
+    line-height: 2rem;
+
+}
+
+nav.menu:hover ul{
+  display: block;
+}
+
+nav.menu:hover ul a{
+    text-decoration:none ;
+}
+
+nav.menu:hover ul a:hover{
+    color: darkmagenta;
+    border-bottom: 3px rgb(177, 43, 43) solid;
+}

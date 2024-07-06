@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+nav.menu{
+    background-color: rgb(92, 87, 87);
+    text-align: center;
+    padding: 15px;
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+}
+nav.menu a:hover{
+  
+    color: crimson;
+}
+
+nav.menu img{
+    width: 20px;
+    height: 20px;
+}
+
+
+main.main-menu section{
+    text-align: center;
+    background-color: rgb(35, 33, 33);
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+
+main.main-menu section h2{
+ 
+ color:whitesmoke ;
+ font-size:2.4rem ;
+
+}
+
+main.main-menu section p{
+    color: rgb(146, 141, 141);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+main.main-menu section .links{
+     margin-bottom: 30px; 
+}
+main.main-menu section .links a{
+    color: cornflowerblue;
+    margin-right: 30px;
+    text-decoration: none;
+  
+}
+main.main-menu section .links a:hover{
+    color: crimson;
+}
+
+main.main-menu section.iphone14{
+    background-color: whitesmoke;
+    
+
+}
+
+main.main-menu section.iphone14 h2{
+    color: black;
+}
+
+main.main-menu section.iphone14 p{
+    color: rgb(91, 89, 89);
+    font-weight: 500;
+}
+
+
+main.main-menu section.watch h2 img{
+
+    width: 30px;
+
+}
+
+main.main-menu section.watch p.series{
+
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+main.main-menu section.iphone14  p.satis-tarihi{
+    color: rgb(114, 84, 84);
+    font-size: 1.2rem;
+}

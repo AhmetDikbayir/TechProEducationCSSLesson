@@ -1,0 +1,25 @@
+h1{
+    color: rgb(21, 255, 0);
+    background-color: violet;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+div{
+    text-align: center;
+    background-color: steelblue;
+    color: #fff;
+}
+
+ol{
+    list-style-type:square;
+    color: blueviolet;
+    background-color: skyblue;
+
+}
+
+li{
+    color: green;
+    background-color: yellow;
+}

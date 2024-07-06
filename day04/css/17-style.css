@@ -1,0 +1,33 @@
+h1.title{
+    background-color: violet;
+    text-align: center;
+    display: inline;
+
+}
+
+span.spanEl{
+    background-color: springgreen;
+    display: inline-block;
+    padding: 10px;
+    height: 45px;
+    margin: 45px;
+}
+
+
+button.btn{
+    background-color: paleturquoise;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+button.btn:hover{
+    display: none;
+    cursor: pointer;
+}
+
+
+
+

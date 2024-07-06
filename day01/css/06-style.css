@@ -1,0 +1,36 @@
+h1.title{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav.navbar{
+    background-color: steelblue;
+    text-align: center;
+    color: yellow;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    cursor: pointer;
+    width: 250px;
+
+
+}
+
+.active{
+    background-color: violet;
+    color: aliceblue;
+}
+
+div#active{
+    background-color: red;
+}
+
+/* 
+
+
+16px== 1rem
+*/
+
+
+/* !   class==.   */
+/* !    id==#      */

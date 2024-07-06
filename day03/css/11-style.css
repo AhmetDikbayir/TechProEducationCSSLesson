@@ -1,0 +1,46 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+h3.title {
+  background-color: tomato;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 0;
+}
+
+div.box-1 {
+  text-align: center;
+  background-color: rgb(142, 142, 26);
+  padding: 69px;
+}
+
+h2.h2El {
+  text-align: center;
+  background-color: pink;
+  padding: 34px;
+  margin: 0;
+}
+
+p.paragraph {
+  text-align: center;
+  background-color: violet;
+  /* *   1 yol*/
+  padding: 100px 20px 100px 20px;
+
+  /** 2. yol */
+
+  margin: 30px 20px;
+  border: 5px red solid;
+  border-radius: 10px;
+}
+
+span.spanEl {
+  background-color: cornflowerblue;
+  padding: 50px;
+  margin: 10px;
+}
+
+/*   !inline elementler dikeyde padding ve margin degeri alamazlar */

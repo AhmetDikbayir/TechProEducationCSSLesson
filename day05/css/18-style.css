@@ -1,0 +1,43 @@
+:root{
+    --primary-color: #ffd0d0;
+    --secondary-color: #3aa6b9;
+    --third-color: rgb(255, 0, 212);
+    --white:whitesmoke;
+}
+
+
+body{
+    background-color: var(--primary-color);
+}
+
+
+nav.menu ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+  
+
+}
+
+nav.menu ul li{
+    display: inline-block;
+}
+
+nav.menu ul li a{
+    display: inline-block;
+   text-decoration: none; 
+    margin-right: 1.5rem;
+    background-color: var(--secondary-color);
+    padding: 8px ;
+    color:var(--primary-color);
+    border: var(--third-color) 2px solid;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+nav.menu ul li a:hover{
+background-color: var(--third-color);
+color: var(--white);
+
+}

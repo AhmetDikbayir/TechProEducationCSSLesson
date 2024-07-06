@@ -1,0 +1,40 @@
+
+
+div.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+div.container > div{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+   
+}
+
+div.container div:nth-child(1){
+    background-color: violet;
+    text-align: center;
+}
+
+div.container div:nth-child(2){
+    background-color: rgb(71, 205, 78);
+    text-align: center;
+}
+
+div.container div:nth-child(3){
+    background-color: rgb(46, 43, 196);
+    text-align: center;
+}
+
+div.container div:nth-child(4){
+    background-color: rgb(224, 20, 20);
+    text-align: center;
+}
+
+div.container div:nth-child(5){
+    background-color: gold;
+    text-align: center;
+}
