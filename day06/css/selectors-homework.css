@@ -7,3 +7,12 @@ h2{
     color:red;
     background-color: bisque;
 }
+
+p.text{
+    color:blue;
+    background-color:beige;
+    border-radius: 10px;
+    margin: 15px, 0px;
+    padding: 15px;
+}
+
