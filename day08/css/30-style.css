@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #ffd0d0;
+    --secondary-color: #3aa6b9;
+    --third-color: chartreuse;
+    --hover-color: #f9f9e0;
+    --navy-color: navy;
+}
+
+div.btn-group{
+    background-color: var(--third-color);
+    margin: 5rem auto ;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 16px solid var(--navy-color);
+}
+
+div.btn-group>button{
+
+flex:0 0  110px ;
+background-color: var(--secondary-color);
+padding: 10px;
+color: var(--primary-color);
+font-size: 1.6rem;
+font-weight: 600;
+border-radius: 5px;
+cursor: pointer;
+border: 6px solid var(--navy-color);
+}
+
+div.btn-group>button:first-child{
+    border-radius: 20px 5px 5px 20px;
+} 
+
+div.btn-group>button:last-child{
+    border-radius: 5px 20px 20px 5px;
+} 
+
+div.btn-group>button:hover{
+background-color: var(--primary-color);
+color: var(--secondary-color);
+}
