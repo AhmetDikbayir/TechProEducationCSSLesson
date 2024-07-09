@@ -1,0 +1,37 @@
+body {
+  background-image: url("../../assets/img/gunesin_dogusu_ve_batisi.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  /*    background-position:center center; */
+  background-size: 100px;
+}
+
+div.banner-1 {
+  height: 100vh;
+  background-image: url("../../assets/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position:right top;
+}
+
+
+div.banner-2{
+    height:50vh;
+    background-image: url("../../assets//img/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+  
+  }
+  

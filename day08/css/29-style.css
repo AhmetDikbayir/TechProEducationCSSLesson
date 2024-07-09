@@ -1,0 +1,39 @@
+div {
+  text-align: center;
+  background-color: violet;
+  margin: 5rem;
+  padding: 2rem;
+}
+
+div.kutu-1 {
+  border: 13px red solid;
+}
+
+div.kutu-2 {
+  border: 13px red dotted;
+}
+div.kutu-3 {
+  border: 13px rgb(21, 255, 0) dashed;
+}
+div.kutu-4 {
+  border: 13px rgb(21, 255, 0) ridge;
+}div.kutu-5 {
+  border-top: double 13px blue;
+  border-bottom: 8px navy outset; 
+
+  border-right: 8px rgb(128, 0, 117) inset; 
+  border-left: groove gold 8px;
+}
+div.kutu-6 {
+    border: 13px rgb(21, 255, 0) ridge;
+    border: none;
+  }div.kutu-7 {
+    border: 13px rgb(21, 255, 0) ridge;
+   border-top-left-radius: 18px;
+   border-bottom-right-radius: 20px;
+  }
+
+
+  div.kutu-8{
+   border-radius: 30px 0  0 0; ;
+  }

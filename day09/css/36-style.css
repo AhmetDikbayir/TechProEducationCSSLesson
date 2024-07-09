@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+
+
+
+nav.menu {
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+  
+}
+  nav.menu ul {
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+   
+  }
+  
+  nav.menu ul li {
+    flex-basis: 170px;
+  }
+  
+  nav.menu ul li a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    background-color: fuchsia;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav.menu ul li a:hover {
+    background-color: rgb(0, 255, 72);
+    color: rgb(0, 0, 0);
+  }
+
+
+  div.container{
+    height : 100vh;
+  
+  }
+
+  table.tablo{
+    margin:5rem;
+    display: fixed;
+  }
+  
+  table.tablo thead{
+    background-color: blueviolet;
+    color: aquamarine;
+    text-align: center;
+   position: sticky;
+    top: 10px;
+    z-index: 1; 
+  
+  }
+
+  table.tablo thead tr th{
+    padding: 20px;
+  }

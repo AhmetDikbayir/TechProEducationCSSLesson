@@ -1,0 +1,35 @@
+div.btn-group {
+    margin: 5rem;
+    border:solid 2px gray ;
+    display: inline-block;
+    padding: 11px 9px;
+    border-radius: 10px;
+    position: relative;
+}
+  
+  div.btn-group input {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0 20px;
+  }
+  
+  div.btn-group button {
+    font-size:25px;
+    padding: 5px 4px;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 0.5px;
+    right: 0.5px;
+   
+}
+  
+  div.btn-group button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }

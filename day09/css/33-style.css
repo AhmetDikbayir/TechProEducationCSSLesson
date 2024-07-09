@@ -1,0 +1,74 @@
+div.bg {
+  padding: 50px;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+div.bg-1 {
+  background-image: linear-gradient(to right, cornflowerblue, khaki);
+}
+
+div.bg-2 {
+  background-image: linear-gradient(magenta, orange);
+}
+
+div.bg-3 {
+  background-image: linear-gradient(
+    to left,
+    rgb(21, 0, 255),
+    rgb(195, 159, 91)
+  );
+}
+
+div.bg-4 {
+  background-image: linear-gradient(45deg, salmon, lemonchiffon, cyan, lime);
+}
+
+div.bg-5 {
+  background-image: linear-gradient(90deg, indianred, royalblue);
+}
+
+div.bg-6 {
+  background-image: linear-gradient(
+    20deg,
+    indigo 30%,
+    yellow 30%,
+    cyan,
+    black 40%
+  );
+}
+
+div.bg-7 {
+  background: linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.bg-8 {
+  background: radial-gradient(
+    circle,
+    #ab1252 10%,
+    #5ea34e 20%,
+    white
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.bg-9 {
+  background-image: radial-gradient(
+ ellipse,
+    #ab1252,
+    #0d208a,
+    white
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+button.btn{
+    display: inline-block;
+    padding: 20px 40px;
+    margin: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, red, yellow, green);
+  }

@@ -1,0 +1,47 @@
+div.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+  align-items:stretch;
+  gap: 10px;
+  flex-wrap: wrap-reverse;
+  
+}
+
+div.container > div {
+  width: 50px;
+  /* height: 50px */
+  text-align: center;
+}
+
+div.container div:nth-child(1) {
+  background-color: violet;
+  text-align: center;
+  flex: 1 0 0;
+}
+
+div.container div:nth-child(2) {
+  background-color: rgb(71, 205, 78);
+  text-align: center;
+  flex: 1 0  0;
+}
+
+div.container div:nth-child(3) {
+  background-color: rgb(46, 43, 196);
+  text-align: center;
+  flex: 2 0  0;
+}
+
+div.container div:nth-child(4) {
+  background-color: rgb(224, 20, 20);
+  text-align: center;
+  flex: 1 2 0;
+  margin-right: 0;
+}
+
+div.container div:nth-child(5) {
+  background-color: gold;
+  text-align: center;
+  flex: 1 1 0;
+}
