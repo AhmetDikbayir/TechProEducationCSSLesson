@@ -1,5 +1,13 @@
+div.navbar {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 25px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+
 div.btn-group {
-    margin: 5rem;
     border:solid 2px gray ;
     display: inline-block;
     padding: 11px 9px;
