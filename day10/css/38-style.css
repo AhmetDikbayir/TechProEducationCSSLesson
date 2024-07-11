@@ -1,0 +1,17 @@
+h1.title{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+div.divEl{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    transform: translate(50%,50%);
+}
+
+img{
+    transform: translateX(100px) rotate(250deg) scale(1.3);
+}
