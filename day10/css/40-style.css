@@ -1,0 +1,29 @@
+.title {
+  margin: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 2rem;
+}
+
+.title-1 {
+  background-color: black;
+  text-shadow: -3px -2px 5px red, 2px 1px 5px greenyellow;
+}
+
+.title-2 {
+    background-color: black;
+  text-shadow: 4px 0 7px purple, 2px 1px 5px rgb(212, 220, 200),
+    2px 1px 5px rgb(197, 53, 34);
+}
+
+
+.title-3{
+   box-shadow: 10px 5px 20px cyan ;
+}
+
+.title-4{
+    box-shadow: 4px 5px 12px royalblue,0 0 16px tomato;
+
+}
